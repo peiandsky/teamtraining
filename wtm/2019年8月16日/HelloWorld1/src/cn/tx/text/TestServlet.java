@@ -21,8 +21,7 @@ import java.io.IOException;
 public class TestServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        System.out.println("启动中");
-
+        System.out.println("执行中");
     }
 
 }
