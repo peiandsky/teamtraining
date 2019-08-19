@@ -4,9 +4,10 @@ import java.util.Scanner;
 /**
  * 公司：赛安服
  * 文件名：Demo02
- * 作者：Administratora
- * 时间：2019/8/16 16:01
+ * @author（作者）：Administratora
+ * @time（时间）：2019/8/19 17:32
  * 描述：
+ * @version（版本）：
  */
 
 

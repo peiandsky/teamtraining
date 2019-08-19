@@ -1,17 +1,24 @@
-import java.math.RoundingMode;
 import java.util.Random;
 import java.util.Scanner;
 
 /**
  * 公司：赛安服
  * 文件名：Demo01
- * 作者：Administratora
- * 时间：2019/8/16 15:30
+ * @author（作者）：Administratora
+ * @time（时间）：2019/8/19 17:32
  * 描述：
+ * @version（版本）：
  */
 
-
 public class Demo01 {
+    /**
+     * @Author vitamin
+     * @email 1121000197@qq.com
+     * @Description //TODO 
+     * @Date 17:11 2019/8/19
+     * @Param [args]
+     * @return void
+     **/
     public static void main(String[] args) {
         System.out.println("请输入");
         Scanner sann = new Scanner(System.in);

@@ -3,14 +3,22 @@ import java.util.Scanner;
 /**
  * 公司：赛安服
  * 文件名：Demo03
- * 作者：Administratora
- * 时间：2019/8/16 16:58
+ * @author（作者）：Administratora
+ * @time（时间）：2019/8/19 17:32
  * 描述：
+ * @version（版本）：
  */
 
 
 public class Demo03 {
-    //一段字母片段中有几个大写字母，几个小写字母，几个数字
+    /**
+     * @Author vitamin
+     * @email 1121000197@qq.com
+     * @Description //TODO 
+     * @Date 17:12 2019/8/19
+     * @Param [args]
+     * @return void
+     **/
     public static void main(String[] args) {
         Scanner scnn = new Scanner(System.in);
         String string =scnn.nextLine();
@@ -32,6 +40,7 @@ public class Demo03 {
                 c4++;
             }
         }
+
         System.out.println("大写字母有：" + c1);
         System.out.println("小写字母有：" + c2);
         System.out.println("数字有：" + c3);
