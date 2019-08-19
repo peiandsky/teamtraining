@@ -37,5 +37,7 @@ public class Demo03 {
         System.out.println("数字有：" + c3);
         System.out.println("其他有：" + c4);
         System.out.println("总字符有：" + string.toCharArray().length);
+
+
     }
 }
