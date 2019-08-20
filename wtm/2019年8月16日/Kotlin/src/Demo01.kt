@@ -15,7 +15,7 @@ class Num() {
 }
 
 fun main(args: Array<String>) {
-    Num()
+    Num().hashCode()
 }
 
 
