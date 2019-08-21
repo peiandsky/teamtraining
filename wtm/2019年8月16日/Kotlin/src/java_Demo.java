@@ -15,17 +15,17 @@ import java.util.Set;
 
 
 public class java_Demo {
-    Set set=new HashSet();
-    Map<String,String> map=new HashMap();
+    Set set = new HashSet();
+    Map<String, String> map = new HashMap();
 
     public static void main(String[] args) {
-        java_Demo demo=new java_Demo();
-        demo.map.put("1","2");
-        System.out.println( demo.map);
+        java_Demo demo = new java_Demo();
+        demo.map.put("1", "2");
+        System.out.println(demo.map);
         demo.set.add(1);
         demo.set.add(1);
         demo.set.add(1);
-        System.out.println( demo.set);
+        System.out.println(demo.set);
     }
 
 
