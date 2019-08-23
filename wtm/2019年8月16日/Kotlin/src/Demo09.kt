@@ -1,15 +1,17 @@
 //when表达式
 fun describe(obj: Any): String =
-        when (obj) {
+        when ( obj ) {
+
         //如果输入的值==1  则输出“One”
             1 -> "One"
         //如果输入的值=="Hello"   则输出"Greeting"
             "Hello" -> "Greeting"
         //如果输入的值是Long类型   则输出"long"
-            is Long -> "long"
+            is  Long  -> "long"
         //如果输入的值不是String类型   则输出"Not a Sting"
-            !is String -> "Not a Sting"
+            !is  String -> "Not a Sting"
         //如果以上都不满足      则输出"Unknown"
+
             else -> "Unknown"
         }
 

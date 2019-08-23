@@ -14,3 +14,4 @@ fun main(args: Array<String>) {    // 包级可见的函数，接受一个字符
     Greeter("Whorld").max(10, 12)        // 分号可以省略
 
 }
+
