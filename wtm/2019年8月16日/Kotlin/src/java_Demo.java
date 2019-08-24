@@ -26,6 +26,13 @@ public class java_Demo {
         demo.set.add(1);
         demo.set.add(1);
         System.out.println(demo.set);
+
+        Parent parent=new Child();
+        System.out.println(((Child)parent).getName());
+        if(parent instanceof  Child){
+            System.out.println(((Child) parent).getName());
+        }
+
     }
 
 

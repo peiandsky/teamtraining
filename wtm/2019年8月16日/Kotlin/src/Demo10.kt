@@ -14,6 +14,13 @@ fun main(args: Array<String>) {
     if(w!=1){
         w=1
     }
+    val anInt:Int=5
+    val along:Long=anInt.toLong()
+    if(along is Long){
+        println("anInt转换成along类型成功")
+    }else{
+        println("anInt转换成along类型失败")
+    }
 
 }
 class  fus(){
