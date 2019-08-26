@@ -3,7 +3,7 @@
  *  文件名：Demo10
  *  @author（作者）：Administratora
  *  @time（时间）：2019/8/22 10:09
- *  描述：
+ *  描述：基础数据类型与字符串 一
  *  @version（版本）：
  *
  */
@@ -24,6 +24,7 @@ fun main(args: Array<String>) {
 
 }
 class  fus(){
+                        //这个Int？ 表示返回值可以为null
     fun fn(a:Int,b:Int) :Int?{
         if (a>b){
             a

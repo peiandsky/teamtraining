@@ -27,4 +27,8 @@ fun main(args: Array<String>) {
     //两个！！号表示强制执行
     println(valu!!.length)
 
+    //！！号表示强制执行可能会null的代码它有可能会报错（空指针异常）
+//    val str:String?=null
+//    println(str!!.length)
+
 }
