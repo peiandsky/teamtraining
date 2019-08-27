@@ -12,6 +12,7 @@ package 市委书记.重庆
 import 市委书记.上海.市委书记 as 上海市委书记
 import 市委书记.天津.市委书记 as 天津市委书记
 import 市委书记.北京.市委书记 as 北京市委书记
+
 fun main(args: Array<String>) {
     val 重庆市市委书记: 市委书记 = 市委书记("张")
     val 上海市市委书记: 上海市委书记 = 上海市委书记("李")

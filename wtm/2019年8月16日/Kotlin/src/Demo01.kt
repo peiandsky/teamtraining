@@ -6,7 +6,7 @@ import java.util.*
 class Num() {
     //fun 方法名（参数a,参数b）：返回值类型{
     //     return 返回值 }
-    
+
     fun sum(a: Int, b: Int): Int {
         return a + b
     }

@@ -9,7 +9,7 @@
  */
 package 市委书记.重庆
 
-class 市委书记(val 姓:String){
+class 市委书记(val 姓: String) {
     override fun toString(): String {
         return "$姓 书记"
     }

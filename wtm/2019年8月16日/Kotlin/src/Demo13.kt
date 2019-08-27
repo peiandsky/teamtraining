@@ -7,7 +7,7 @@
  *  @version（版本）：
  *
  */
-fun  getName():String?{
+fun getName(): String? {
     return "111"
 }
 
@@ -21,9 +21,9 @@ fun main(args: Array<String>) {
 //    }
 
     //定义一个常量 如果他的值是null就直接return 否则就走下一步
-    val name:String=getName()?:return
+    val name: String = getName() ?: return
     println(name.length)
-    val valu:String?="HelloWorld"
+    val valu: String? = "HelloWorld"
     //两个！！号表示强制执行
     println(valu!!.length)
 

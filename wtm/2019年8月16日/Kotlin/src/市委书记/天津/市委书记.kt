@@ -9,6 +9,6 @@
  */
 package 市委书记.天津
 
-class 市委书记(val 姓:String){
+class 市委书记(val 姓: String) {
 
 }

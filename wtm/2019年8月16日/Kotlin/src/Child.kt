@@ -9,11 +9,16 @@
  */
 
 
-public class Child extends  Parent {
-    public String getName(){
-        return  "Child";
+class Child : Parent() {
+
+    //   System.out.println(name);
+    var name: String?
+        get() = null
+        set(name) {}
+
+
+    fun chod(): String {
+        return "chod"
     }
-    public  String chod(){
-        return "chod";
-    }
+
 }
