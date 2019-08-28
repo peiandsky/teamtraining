@@ -12,7 +12,7 @@ package net.println.kotlin.chapter3
 //常量  与java中的Final int 类型一致  是运行期常量
 val FINAL_HELLO_WORLD: String = "HelloWorld"
 //编译期常量 与java中Final int 完全一致 都是编译期常量
-const val x = 2
+const val xx = 2
 //变量
 var str: String = "1"
 //类型推导 常量(根据被赋值自动识别 类型)
