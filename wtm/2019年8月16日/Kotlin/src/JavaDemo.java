@@ -14,12 +14,12 @@ import java.util.Set;
  */
 
 
-public class java_Demo {
+public class JavaDemo {
     Set set = new HashSet();
     Map<String, String> map = new HashMap();
 
     public static void main(String[] args) {
-        java_Demo demo = new java_Demo();
+        JavaDemo demo = new JavaDemo();
         demo.map.put("1", "2");
         System.out.println(demo.map);
         demo.set.add(1);
