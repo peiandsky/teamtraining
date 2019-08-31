@@ -8,7 +8,7 @@
  *
  */
 package school.chongqing
-//导包可以使用别名  
+//导包可以使用别名
 import school.shanghai.School as shanghaiSchool
 import school.beijing.School as beijingSchool
 fun main(args: Array<String>) {
