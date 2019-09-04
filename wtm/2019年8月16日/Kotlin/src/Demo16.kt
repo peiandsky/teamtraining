@@ -1,4 +1,4 @@
-import 市委书记.重庆.市委书记
+import school.chongqing.School as school
 
 /**
  *公司：赛安服
@@ -12,7 +12,7 @@ import 市委书记.重庆.市委书记
 val arrayOfInt: IntArray = intArrayOf(1, 3, 4, 7)//Int类型的数组
 val arrayOfChar: CharArray = charArrayOf('H', 'e', 'r', 'r', 'o', 'W', 'o', 'r', 'l', 'd')//char类型的数组
 val arrayOfString: Array<String> = arrayOf("我", "是", "码农")//String数组
-val arrayOf书记: Array<市委书记> = arrayOf(市委书记("张"), 市委书记("陈"), 市委书记("刘"))//自定义类型数组
+val arrayOfSchool: Array<school> = arrayOf(school("张"), school("陈"), school("刘"))//自定义类型数组
 
 fun main(args: Array<String>) {
     println(arrayOfInt.size)
@@ -20,14 +20,14 @@ fun main(args: Array<String>) {
         print("$i,")//打印数组
     }
     println()
-    println(arrayOf书记[1])//输出数组对应的元素
-    for (i: 市委书记 in arrayOf书记) {
+    println(arrayOfSchool[1])//输出数组对应的元素
+    for (i: school in arrayOfSchool) {
         print("$i,")
     }
     println()
-    arrayOf书记[1] = 市委书记("魏")//修改数组对应的元素
-    println(arrayOf书记[1])
-    for (i: 市委书记 in arrayOf书记) {
+    arrayOfSchool[1] = school("魏")//修改数组对应的元素
+    println(arrayOfSchool[1])
+    for (i: school in arrayOfSchool) {
         print("$i,")
     }
     println()
