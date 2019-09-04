@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>属性绑定和双向数据绑定</title>
+    <script src="vue.js"></script>
+</head>
+<body>
+<div id="root">
+    <!--模板指令(v-bind:)对title属性进行绑定，
+    绑定内容为data数据中title代表的内容，
+    注:v-bind:也可以简写为":"-->
+    <h4 v-bind:title="title">hello title</h4>
+    <input :value="content"><br>
+    <!--数据的双向绑定（v-model指令）-->
+    <input v-model="content">
+    <div>{{content}}</div>
+</div>
+<script>
+    new Vue({
+        el: "#root",
+        data: {
+            title:"欢迎来到属性绑定",
+            content:"input输入框默认值"
+        }
+    })
+</script>
+</body>
+</html>
