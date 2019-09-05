@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDoList</title>
+    <script src="vue.js"></script>
+</head>
+<body>    <!--注释的快捷键：ctrl+shift+/ -->
+<div id="root">
+    <input v-model="inputValue">
+    <button v-on:click="handleClick">提交</button>
+    <ul>
+        <li v-for="item of list">{{item}}</li>
+    </ul>
+</div>
+<script>
+    new Vue({
+        el:"#root",
+        data:{
+            inputValue:"hello",
+            list:[]
+        },
+        methods:{
+            handleClick:function () {
+                /*push（）方法，向list数组里面添加元素*/
+                this.list.push(this.inputValue)
+                this.inputValue = ""
+            }
+        }
+    })
+</script>
+</body>
+</html>

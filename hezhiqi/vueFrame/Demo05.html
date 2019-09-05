@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>计算属性和侦听器</title>
+    <script src="vue.js"></script>
+</head>
+<body>
+<div id="root">
+    数1：<input v-model="number1">
+    数2：<input v-model="nu mber2"><br>
+    合计：<span>{{sum}}</span>
+    <div>{{count}}</div>
+</div>
+<script>
+    var mv = new Vue({
+        el: "#root",
+        data: {
+            number1:0,
+            number2:0,
+            count:0
+        },
+        <!--计算属性computed-->
+        computed:{
+            sum:function () {
+               return parseInt(this.number1) +parseInt(this.number2)
+
+            }
+        },
+        <!--侦听器watch监测某个数据或监听属性发生变化，
+        当number1的值改变时，count就自增1-->
+        watch:{
+            number1:function () {
+                this.count++
+            }
+        }
+    })
+</script>
+</body>
+</html>
