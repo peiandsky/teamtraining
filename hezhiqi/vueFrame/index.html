@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vue入门</title>
+    <script src="./vue.js"></script>
+</head>
+<body>
+<!--模板、挂载点、实例之间的关系--><!---->
+<div id="root"><!--挂载点-->
+    <h2>{{msg}}</h2><!--模板-->
+    <div v-text="content"></div><!--属性v-text转义直接原样输出-->
+    <div v-html="content"></div>
+    <!--(v-on:click)给元素绑定点击事件,其中v-on可以用@代替-->
+    <div v-on:click="handleClick" v-text="click"></div>
+    <!--(v-on:click)给元素绑定点击事件,其中v-on可以用@代替-->
+    <div @click="handleClick1" v-text="click1"></div>
+</div>
+
+<script>
+    new Vue({
+        el:"#root",
+        data:{
+            msg:"hello vue",
+            number:123,
+            content:"<h2>hello</h2>",
+            click:"点击我就给你一个林妹妹",
+            click1:"v-on可以用@代替"
+        },
+        methods:{
+            handleClick:function () {
+                this.click = "宝玉哥哥好，我是林妹妹"
+            },
+            handleClick1:function () {
+                this.click1 = "我是林妹妹"
+            }
+        }
+    })
+</script>
+</body>
+</html>
