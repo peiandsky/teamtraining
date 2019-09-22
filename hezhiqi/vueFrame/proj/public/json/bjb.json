@@ -1,0 +1,42 @@
+[
+  {
+    "goodName": "笔记本1",
+    "img": "image/bjb/bjb01.png"
+  },
+  {
+    "goodName": "笔记本2",
+    "img": "image/bjb/bjb02.png"
+  },
+  {
+    "goodName": "笔记本3",
+    "img": "image/bjb/bjb03.png"
+  },
+  {
+    "goodName": "笔记本4",
+    "img": "image/bjb/bjb04.png"
+  },
+  {
+    "goodName": "笔记本5",
+    "img": "image/bjb/bjb05.png"
+  },
+  {
+    "goodName": "笔记本6",
+    "img": "image/bjb/bjb06.png"
+  },
+  {
+    "goodName": "笔记本7",
+    "img": "image/bjb/bjb07.png"
+  },
+  {
+    "goodName": "笔记本8",
+    "img": "image/bjb/bjb08.png"
+  },
+  {
+    "goodName": "笔记本9",
+    "img": "image/bjb/bjb09.png"
+  },
+  {
+    "goodName": "笔记本10",
+    "img": "image/bjb/bjb10.png"
+  }
+]

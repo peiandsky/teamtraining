@@ -1,0 +1,46 @@
+[
+  {
+  "goodName": "华为1",
+  "img": "image/shouji/sj01.png"
+},
+  {
+    "goodName": "华为2",
+    "img": "image/shouji/sj02.png"
+  },
+  {
+    "goodName": "华为3",
+    "img": "image/shouji/sj03.png"
+  },
+  {
+    "goodName": "华为4",
+    "img": "image/shouji/sj04.png"
+  },
+  {
+    "goodName": "华为5",
+    "img": "image/shouji/sj05.png"
+  },
+  {
+    "goodName": "华为6",
+    "img": "image/shouji/sj06.png"
+  },
+  {
+    "goodName": "华为7",
+    "img": "image/shouji/sj07.png"
+  },
+  {
+    "goodName": "华为8",
+    "img": "image/shouji/sj08.png"
+  },
+  {
+    "goodName": "华为9",
+    "img": "image/shouji/sj09.png"
+  },
+  {
+    "goodName": "华为10",
+    "img": "image/shouji/sj10.png"
+  },
+  {
+    "goodName": "华为11",
+    "img": "image/shouji/sj11.png"
+  }
+]
