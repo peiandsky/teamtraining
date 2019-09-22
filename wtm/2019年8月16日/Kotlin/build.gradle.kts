@@ -1,7 +1,7 @@
-group 'KotlinGradle'
-version '1.0-SNAPSHOT'
+group "KotlinGradle"
+version "1.0-SNAPSHOT"
 
-apply plugin: 'application'
+apply plugin: "application"
 mainClassName = "Kotlin.src.net.println.kotlin.chapter3.calckt"
 
 sourceCompatibility = 1.8
